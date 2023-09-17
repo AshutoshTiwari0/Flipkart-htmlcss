@@ -1,0 +1,255 @@
+.body
+{
+    margin: 0 0 0 0;
+    height: 2000px;
+    font-weight:400px;
+    
+}
+
+.flipkart
+{
+    display: inline-block;
+    color:white;
+    padding-left:0px;
+    
+}
+.more,.cart{
+    color:white;
+}
+.searchbox , .Login , .seller,.more,.cart
+{
+    display: inline-block;
+}
+.Login
+{
+    border-radius: 0;
+    color:rgb(69, 148, 204);
+    background-color: white;
+    border-color: white;
+    
+}
+.header
+{
+    background-color:#2874f0;
+    height:52px;
+    width:100%;
+    position: fixed;
+    z-index: 100;
+}
+.header-grid
+{
+    display:grid;
+    grid-template-columns:100px 180px 50px 120px 45px 30px ;
+    height: 25px;
+    align-items: center;
+    place-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.searchbox
+{
+    margin-right: 5px;
+    height:30px;
+    border-radius: 1px;
+    
+}
+.seller{
+    color:white;
+    align-items: center;
+    place-items:center;
+    padding-left:10px;
+}
+.items
+{
+    display:inline-block;
+}
+.item-image
+{
+    width: 45px;
+    height:50px;
+    margin-top: 8px;
+    margin-left: 15px;
+    display:block;
+    margin-bottom:5px;
+}
+.item-name
+{
+    margin-left: 15px; 
+      display:inline-block;
+      
+}
+.navigation
+{
+    display:flex;
+    flex-direction: row;
+    row-gap: 50%;
+    flex:1;
+}
+.item-grid
+{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    height: 60px;
+    margin-top:69px;
+}
+.header-grid-center
+{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.sale-banner
+{
+    margin-top:25px;
+    height:400px;
+    width:100%;
+}
+.product-line
+{
+    padding-top:5px;
+    display:grid;
+    justify-content: center;
+    margin-left: 0px;
+    display:inline-block;
+}
+.product-theme-grid
+{
+    display:grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    margin-top: -7px;
+    height:200px;
+    padding-top:40px;
+    padding-right:4px;
+    grid-template-areas: "image1";
+    margin-top:19px;
+    margin-bottom: 25px;
+}
+.electronic-section
+{
+    font-size: 30px;
+    line-height: 1.38;
+    font-weight: 400;
+    margin-left:20px;
+    display:inline-block;
+    width: 161px;
+    position: absolute;
+    height:200px;
+    overflow:hidden;
+
+}
+.product-type
+{
+    display:inline;
+    font-family:Roboto,Arial,sans-serif;
+    color: white;
+
+}
+.view-all
+{
+    color:white;
+    background-color: rgb(61, 124, 234);
+    border-color: rgb(61, 124, 234);
+    padding:7px 7px ;
+    display:inline;
+    margin-top:-10px;
+    margin-left: 18px;
+    
+}
+.product-theme-grid:hover
+{
+    cursor:pointer;
+}
+.best-of
+{
+    padding-left: 9px;
+    color:whitesmoke;
+    
+}
+.image-1
+{
+    grid-area: image1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  
+}
+.electronic-text-color
+{
+    color:whitesmoke;
+    display:inline;
+    margin-left: 10px;;
+}
+.product-image
+{
+    height:150px;
+    
+}
+.product-image-printer
+{
+    width:150px;
+    height: 150px;
+}
+.electronic-section-wale-products
+{
+    width:161px;
+    padding-left:15px;
+}
+.product-info
+{
+    padding-left: 10px;
+    text-align: center;
+}
+.product-price
+{
+ display: inline-block;
+}
+.recently-viewed-grid
+{
+    display:grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    margin-top: -7px;
+    height:200px;
+    padding-top:40px;
+    padding-right:4px;
+    grid-template-areas: "image1";
+    margin-top:19px;
+}
+.recent
+{
+color:black;
+display:flex;
+align-items: center;
+justify-content: center;
+margin-top:15px;
+}
+.farzi-text
+{
+    margin-top:75px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(177, 173, 173);
+    
+}
+.footer
+{
+    background-color: #343c4e;
+    height:375px;
+}
+.footer-info-grid
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr 1.5fr;
+    height:416px;
+    margin:20px 20px 15px 15px;
+}
+.heading
+{
+    margin-bottom:5px;
+    color:rgb(135, 133, 133);
+}
+.heading-internal
+{
+    margin-bottom:5px;
+    margin:5px;
+    color:white;
+}
